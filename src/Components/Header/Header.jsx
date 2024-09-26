@@ -38,7 +38,7 @@ const Header = () => {
   return (
     <nav className="header_nav">
       <motion.div className="logo" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
-        <h1>Mr.Kolli</h1>
+        <h1><i>Mr.Kolli</i></h1>
       </motion.div>
       <div className="menu-icon" onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}>
         {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
