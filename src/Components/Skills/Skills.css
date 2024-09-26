@@ -1,0 +1,45 @@
+/* Skills.css */
+
+#skills {
+    padding: 2rem;
+    text-align: center;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  #skills h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .chart-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Media Queries for Mobile View */
+  
+  @media (max-width: 768px) {
+    #skills {
+      padding: 1rem;
+    }
+  
+    #skills h2 {
+      font-size: 1.5rem;
+    }
+  
+    .chart-container {
+      max-width: 100%;
+      height: 50vh;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #skills {
+      padding: 0.5rem;
+    }
+  
+    #skills h2 {
+      font-size: 1.2rem;
+    }
+  }
+  

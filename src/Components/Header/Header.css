@@ -1,0 +1,160 @@
+/* Header.css */
+
+.header_nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100% !important; 
+  height: 10vh;
+  margin: 0 auto; /* Center the nav */
+  background-color: #fff; /* Background color */
+  position: fixed; /* Make the header fixed */
+  top: 0; /* Position at the top */
+  left: 0; /* Align to the left */
+  z-index: 1000; /* Ensure it's above other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: shadow for depth */
+}
+
+.logo h1 {
+  font-size: 2rem; /* Adjust size as needed */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000; /* Adjust color as needed */
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #f36100; /* Change color on hover or when active */
+}
+.nav-links a.active {
+  color: #f36100; /* Change this to your preferred active link color */
+  font-weight: bold; /* Optional: to emphasize the active link */
+}
+
+
+.cta-button {
+  display: flex; /* Ensure it can be centered if necessary */
+}
+
+.cta-button a {
+  padding: 0.5rem 1rem;
+  background-color: #f36100; /* Your preferred color */
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Mobile Styles */
+.menu-icon {
+  display: none; /* Hide menu icon by default */
+  font-size: 2rem; /* Adjust size as needed */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Make nav-links a column in mobile view */
+.nav-links {
+  display: flex; /* Show links by default */
+}
+
+.nav-links.active {
+  display: flex; /* Show links when menu is active */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: row; /* Row layout */
+  }
+
+  .nav-links {
+    display: none; /* Hide links by default */
+    flex-direction: column; /* Stack links */
+    position: absolute; /* Absolute positioning */
+    top: 60px; /* Adjust based on your header height */
+    left: 0;
+    right: 0;
+    background-color: #fff; /* Background color */
+    z-index: 999; /* Ensure above other content */
+  }
+
+  .nav-links.active {
+    display: flex; /* Show when active */
+  }
+
+  .menu-icon {
+    display: block; /* Show menu icon */
+  }
+
+  .cta-button {
+    display: none; /* Hide Let's Talk button in mobile view */
+  }
+}
+
+/* Hero Section CSS */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  width: 100%; /* Ensure full width */
+  max-width: 100vw; /* Prevent exceeding the viewport width */
+  box-sizing: border-box; /* Include padding in the width */
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Ensure full width */
+  max-width: 100vw; /* Prevent exceeding the viewport width */
+  margin: 0 auto; /* Center the hero content */
+  box-sizing: border-box; /* Include padding in the width */
+}
+
+/* Left side - Text */
+.hero-text {
+  max-width: 600px; /* Adjust as needed */
+}
+
+/* Right side - Image */
+.hero-image {
+  position: relative;
+}
+
+/* SVG line art */
+.line-art-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Mobile Styles for Hero Section */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-text,
+  .hero-image {
+    margin-bottom: 2rem;
+  }
+
+  .profile-pic {
+    width: 100%; /* Adjust for responsiveness */
+    max-width: 400px; /* Set a max width */
+  }
+}
