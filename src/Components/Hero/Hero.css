@@ -9,6 +9,7 @@
   max-width: 100vw;
   box-sizing: border-box;
   overflow-x: hidden;
+  
 }
 
 .hero-content {
@@ -90,9 +91,13 @@
 
 .social-icon:hover {
   transform: scale(1.1);
+  color: #f36100;
 }
 
 @media (max-width: 768px) {
+  .hero-section{
+    margin-top: 40px;
+  }
   .hero-content {
     flex-direction: column;
     align-items: center;

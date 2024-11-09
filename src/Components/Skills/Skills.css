@@ -1,19 +1,23 @@
 /* Skills.css */
 
 #skills {
-    padding: 2rem;
+    /* padding: 2rem; */
     text-align: center;
      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+     margin-bottom: 20px;
   }
   
   #skills h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
+  color: #00B37E;  /* Primary color */
+
   }
   
   .chart-container {
     max-width: 600px;
     margin: 0 auto;
+    /* background-color: #f4f4f4;  */
   }
   
   /* Media Queries for Mobile View */

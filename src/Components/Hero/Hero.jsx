@@ -32,7 +32,7 @@ const Hero = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <h1>Hello <br /> I’m Pavan Kolli</h1>
+          <h1>Hello <br /> I’m <b style={{color:"#00B37E"}}>Pavan Kolli</b></h1>
           <h2>{designations[designationIndex]}</h2> {/* Designation that changes */}
           <p>
           "Creating Beautiful and Functional Web Applications with Passion and Precision"

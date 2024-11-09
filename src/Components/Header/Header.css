@@ -7,7 +7,7 @@
   width: 100% !important; 
   height: 10vh;
   margin: 0 auto; /* Center the nav */
-  background-color: #fff; /* Background color */
+  background-color: #fff; 
   position: fixed; /* Make the header fixed */
   top: 0; /* Position at the top */
   left: 0; /* Align to the left */

@@ -1,6 +1,6 @@
 /* Contact Section Styles */
 .contact-section {
-  background-color: #f4f4f4;  /* Light gray background */
+  background-color: #f4f4f4; 
   padding: 100px 20px;        /* Spacing around the section */
   display: flex;
   flex-direction: column;
@@ -16,7 +16,8 @@
 .contact-content h2 {
   font-size: 2.5em;
   margin-bottom: 30px;
-  color: #101010;             /* Darker text color for heading */
+  /* color: #101010;   */
+  color: #00B37E;  
 }
 
 .contact-form {

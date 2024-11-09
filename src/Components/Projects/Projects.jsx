@@ -34,7 +34,7 @@ const Projects = () => {
       id: 4,
       title: 'Online Seafood Marketplace',
       description: 'Designed and developed an e-commerce website dedicated to delivering fresh seafood directly to customers. This website allows users to explore a variety of seafood products, place orders, and have the seafood delivered to their doorstep. The website focuses on providing a seamless shopping experience, emphasizing freshness, quality, and timely delivery.',
-      imageUrl: 'https://static.vecteezy.com/system/resources/thumbnails/005/513/180/small/fresh-seafood-restaurant-premium-logo-vector.jpg',
+      imageUrl: 'https://digitallinkspro.qa/wp-content/uploads/2023/09/ecommerce-website-checklist-b--1024x540.jpg',
       sourceCodeUrl: 'https://github.com/PavanKumarKolli/zinggy-clone',
       demoUrl: 'https://zinggy-clone.vercel.app/',
       technologies: ['HTML','CSS','React','NodeJs','AdobePhotoshop'],
